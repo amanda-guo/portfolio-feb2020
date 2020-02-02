@@ -1,0 +1,148 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Muli', sans-serif;
+}
+
+.navbar {
+    background-color:#FFF;
+    padding: 1% 0;
+    font-size: 1.6em;
+    font-family: 'Muli', sans-serif;
+}
+
+.navbar-brand {
+    background-color:#FFF:
+    padding: 1% 0;
+    font-size: 1.6em;
+    font-family: 'Muli', sans-serif;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #061A40;
+    font-family: 'Muli', sans-serif;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #EFC7C2;
+}
+
+.navbar-default .navbar-brand {
+    color: #061A40;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #EFC7C2;
+}
+
+#home {
+    background: url(images/grocerygo-rect.png) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.landing-text {
+    display: table-cell;
+    vertical-align: center;
+}
+
+.landing-text h1 {
+    font-size: 300%;
+    font-weight: 700;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.padding {
+    padding: 30px 0;
+}
+
+padding img {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    background-color: #FFF;
+    padding: 5% 5% 5% 5%;
+    color:#000;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px; 
+  height: 350px;
+}
+
+hr {
+    border-color: black;
+    border-width: 2px;
+    margin-right: auto;
+}
+
+.btn {
+    background-color: #061A40;
+    color: #E1E0E0;
+    border-radius: 150px;
+    width: 45%;
+    padding: 5%;
+    font-family: 'Muli', sans-serif;
+}
+
+.btn:hover {
+    background-color: #2C4573;
+}
+
+#wrap {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+#content {
+    float: left;
+    position: relative;
+    left: -50%;
+    color: black;
+}
+
+.grocerygo img {
+    height: 40%;
+    width: 50%;
+}
+
+.grocerygo h2, h3, h4 {
+    padding-right: 300px;
+    color: black;
+}
+
+.grocerygo .btn {
+    background-color: #F3F3F3;
+    width: 50%;
+    border-radius: 0px;
+    padding-bottom: 200px;
+    border-color: transparent;
+}
+
+.grocerygo .btn:hover {
+  background-color: #061A40;
+  color: #E1E0E0;
+}
+
+@media (max-width: 375px) {
+    .landing-text h1 {
+        font-size: 200%;
+    }
+}
