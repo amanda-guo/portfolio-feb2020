@@ -12,13 +12,16 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 1% 0;
     font-size: 1.6em;
     font-family: 'Muli', sans-serif;
+    border:none;
+    padding-right: 120px;
 }
 
 .navbar-brand {
     background-color:#FFF:
-    padding: 1% 0;
-    font-size: 1.6em;
+    padding: 1%;
+    font-size: 1.4em;
     font-family: 'Muli', sans-serif;
+    padding-left: 150px;
 }
 
 .navbar-default .navbar-nav li a {
@@ -56,6 +59,10 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 300%;
     font-weight: 700;
     
+}
+
+.bio h3 {
+    padding-left: 0px;
 }
 
 img {
