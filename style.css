@@ -118,27 +118,22 @@ hr {
     color: black;
 }
 
-.grocerygo img {
-    height: 40%;
-    width: 50%;
+.pagelinks h2, h3, h4 {
+    padding-left: 20px;
 }
 
-.grocerygo h2, h3, h4 {
-    padding-right: 300px;
-    color: black;
-}
-
-.grocerygo .btn {
+.pagelinks .button {
     background-color: #F3F3F3;
     width: 50%;
     border-radius: 0px;
-    padding-bottom: 200px;
+    padding-bottom: 250px;
     border-color: transparent;
 }
 
-.grocerygo .btn:hover {
+.pagelinks .button:hover {
   background-color: #061A40;
   color: #E1E0E0;
+  text-decoration: none;
 }
 
 @media (max-width: 375px) {
