@@ -50,6 +50,61 @@ h1, h2, h3, h4, h5, h6, p {
     background-size: cover;
 }
 
+.starterhacks #home {
+    background: url(images/starterhacks-rect.png) no-repeat center center fixed;
+    display:table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.microsoftteams #home {
+    background: url(images/microsoftteams-rect.png) no-repeat center center fixed;
+    display:table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.whatsapp #home {
+    background: url(images/whatsapp-rect.png) no-repeat center center fixed;
+    display:table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.financialscreen #home {
+    background: url(images/financialscreen-rect.png) no-repeat center center fixed;
+    display:table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.cibc #home {
+    background: url(images/cibc-rect.png) no-repeat center center fixed;
+    display:table;
+    height: 60%;
+    position: relsative;
+    width: 100%;
+    background-size: cover;
+}
+
+.graphic #home {
+    background: url(images/graphic-rect.png) no-repeat center center fixed;
+    display:table;
+    height: 60%;
+    position: relsative;
+    width: 100%;
+    background-size: cover;
+}
+
+
 .landing-text {
     display: table-cell;
     vertical-align: center;
